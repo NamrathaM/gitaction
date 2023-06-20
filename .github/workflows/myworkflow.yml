@@ -3,6 +3,6 @@ run-name: instance
 on: [push]
 jobs:
   say-hello:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
-      -run: echo "Hello World"
+      - run: echo "Hello World"
